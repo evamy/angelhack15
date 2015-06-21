@@ -1,6 +1,7 @@
 drop table if exists entries;
 create table entries (
-    id text primary key,
+    id int auto_increment,
+    mid text primary key,
     title text not null,
     album text,
     artist text,

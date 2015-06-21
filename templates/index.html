@@ -91,7 +91,7 @@
             {% endif %}
             <div id="songs">
                 {% if songs %}
-                    <h4>Now Playing: {{songs[0][1]}}</h4>
+                    <h4>Now Playing: {{songs[0][0]}}</h4>
                     <br>
                 {% endif %}
                 <div class="row marse">
@@ -107,8 +107,8 @@
                         {% set sec = (song[-1]%60)|int %}
                         {% set sec = sec|string if sec > 9 else '0'+sec|string %}
                         <div class="row marse">
+                            <div class="col-md-3 left"><h4>{{song[0]}}</h4></div>
                             <div class="col-md-3 left"><h4>{{song[1]}}</h4></div>
-                            <div class="col-md-3 left"><h4>{{song[3]}}</h4></div>
                             <div class="col-md-3 left"><h4>{{song[2]}}</h4></div>
                             <div class="col-md-3"><h4>{{min}}:{{sec}}</h4></div>
                         </div>

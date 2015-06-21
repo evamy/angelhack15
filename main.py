@@ -58,7 +58,7 @@ def teardown_request(exception):
 
 @app.route("/", methods=["GET"])
 def queue():
-    cur = g.db.execute('select * from entries')
+    cur = g.db.execute('select title, album, artist, filename, length from entries')
     rows = cur.fetchall()
     is_serv = request.remote_addr == '127.0.0.1'
     return render_template('index.html', songs=rows, iss=is_serv)
@@ -66,7 +66,7 @@ def queue():
 
 @app.route("/get_songs")
 def get_songs():
-    cur = g.db.execute('select * from entries')
+    cur = g.db.execute('select title, album, artist, filename, length from entries')
     rows = cur.fetchall()
     return render_template('songs.html', songs=rows)
 
@@ -133,7 +133,7 @@ def upload_file():
 
             entity = [hash_val, name, album, artists, filename, length]
 
-            g.db.execute("insert into entries (id, title, album, artist, \
+            g.db.execute("insert into entries (mid, title, album, artist, \
                          filename, length) values (?, ?, ?, ?, ?, ?)", entity)
             g.db.commit()
             flash('New entry was successfully posted')
