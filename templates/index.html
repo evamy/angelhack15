@@ -34,6 +34,13 @@
         .marse {
             margin-left: 20px;
         }
+        .thsn {
+          font-size: 18px;
+          margin: 0 0 35px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #fff;
+        }
     </style>
     </head>
     <body>
@@ -82,7 +89,7 @@
                     </audio>
                 {% else %}
                     <audio align="center" autoplay preloads="metadata" controls>
-                      <source src="songs/{{songs[0][-2]}}" type="audio/mpeg" />
+                      <source src="/songs/{{songs[0][5]}}" type="audio/mpeg" />
                         Your browser does not support the audio element.
                     </audio>
                 {% endif %}
@@ -91,26 +98,32 @@
             {% endif %}
             <div id="songs">
                 {% if songs %}
-                    <h4>Now Playing: {{songs[0][0]}}</h4>
+                    <h4>Now Playing: {{songs[0][2]}}</h4>
                     <br>
                 {% endif %}
                 <div class="row marse">
                     <div class="col-md-3 left"><h3>Song</h3></div>
                     <div class="col-md-3 left"><h3>Artists</h3></div>
                     <div class="col-md-3 left"><h3>Album</h3></div>
-                    <div class="col-md-3"><h3>Duration</h3></div>
+                    <div class="col-md-1"><h3>#</h3></div>
+                    <div class="col-md-2"><h3>#!</h3></div>
                 </div>
                 <div style="max-height:500px">
                     {% for song in songs %}
-                        {% set min = (song[-1]/60)|int %}
+                        {% set min = (song[6]/60)|int %}
                         {% set min = min|string if min > 9 else '0'+min|string %}
-                        {% set sec = (song[-1]%60)|int %}
+                        {% set sec = (song[6]%60)|int %}
                         {% set sec = sec|string if sec > 9 else '0'+sec|string %}
                         <div class="row marse">
-                            <div class="col-md-3 left"><h4>{{song[0]}}</h4></div>
-                            <div class="col-md-3 left"><h4>{{song[1]}}</h4></div>
                             <div class="col-md-3 left"><h4>{{song[2]}}</h4></div>
-                            <div class="col-md-3"><h4>{{min}}:{{sec}}</h4></div>
+                            <div class="col-md-3 left"><h4>{{song[4]}}</h4></div>
+                            <div class="col-md-3 left"><h4>{{song[3]}}</h4></div>
+                            <div class="col-md-1"><h4>{{min}}:{{sec}}</h4></div>
+                            <div class="col-md-2" sid="{{song[0]}}">
+                                <a class="thsn" href="#" sid="+">+ </a>
+                                <a class="thsn" href="#" sid="-">- </a>
+                                <a class="votes">{{song[7]}}</a>
+                            </div>
                         </div>
                     {% endfor %}
                 </div>
@@ -118,15 +131,16 @@
           </div>
     </header>
     <script type="text/javascript">
-    $('audio').on('ended', function(){
-        window.location = '/change_song';
-    });
-    function refresh(){
-        $.get("/get_songs", function(data){
-            $("#songs").html(data);
+
+        $('audio').on('ended', function(){
+            window.location = '/change_song';
         });
-    }
-    setInterval(refresh, 2000);
+        function refresh(){
+            $.get("/get_songs", function(data){
+                $("#songs").html(data);
+            });
+        }
+        setInterval(refresh, 2000);
     </script>
     </body>
 </html>

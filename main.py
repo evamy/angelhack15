@@ -1,5 +1,6 @@
 # all the imports
 import os
+import sys
 import hashlib
 import sqlite3
 from mutagen.mp3 import MP3
@@ -58,15 +59,38 @@ def teardown_request(exception):
 
 @app.route("/", methods=["GET"])
 def queue():
-    cur = g.db.execute('select title, album, artist, filename, length from entries')
+    cur = g.db.execute('select * from entries order by votes desc')
     rows = cur.fetchall()
     is_serv = request.remote_addr == '127.0.0.1'
     return render_template('index.html', songs=rows, iss=is_serv)
 
 
+@app.route("/vote", methods=["POST"])
+def vote():
+    _id = request.form.get('id')
+    sid = request.form.get('sid')
+    print _id, sid
+    try:
+        g.db.execute('insert into votes (sid, ip) values(?, ?)',
+                     (_id, request.remote_addr))
+        g.db.commit()
+    except Exception as e:
+        print str(e)
+        return 'You\'ve already voted.', 400
+    if sid == '+':
+        query = "update entries set votes = votes + 1 where id = {0}"
+    else:
+        query = "update entries set votes = votes - 1 where id = {0}"
+    g.db.execute(query.format(_id))
+    g.db.commit()
+    cur = g.db.execute("select votes from entries where id = {0}".format(_id))
+    rows = cur.fetchall()
+    return str(rows[0][0])
+
+
 @app.route("/get_songs")
 def get_songs():
-    cur = g.db.execute('select title, album, artist, filename, length from entries')
+    cur = g.db.execute('select * from entries order by votes desc')
     rows = cur.fetchall()
     return render_template('songs.html', songs=rows)
 
@@ -143,12 +167,15 @@ def upload_file():
 
 @app.route("/change_song")
 def change_song():
-    g.db.execute("delete from entries where id in (select id from entries limit 1)")
+    g.db.execute("delete from entries where id in (select id\
+                 from entries order by votes desc limit 1)")
     g.db.commit()
     return redirect(url_for("queue"))
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',
-            debug=True)
+    if len(sys.argv) > 1:
+        init_db()
+    else:
+        app.run(host='0.0.0.0', debug=True)
     # app.run(debug=True)
