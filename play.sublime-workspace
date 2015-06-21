@@ -1,0 +1,988 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"colnames"
+			],
+			[
+				"Ae",
+				"Average"
+			],
+			[
+				"avg",
+				"avg_t"
+			],
+			[
+				"av",
+				"avg_t"
+			],
+			[
+				"Co",
+				"courses_list"
+			],
+			[
+				"co",
+				"courses_list"
+			],
+			[
+				"sch",
+				"schools_t"
+			],
+			[
+				"p",
+				"programs"
+			],
+			[
+				"sc",
+				"schools_t"
+			],
+			[
+				"pa",
+				"page_url"
+			],
+			[
+				"det",
+				"details"
+			],
+			[
+				"de",
+				"details"
+			],
+			[
+				"html_n",
+				"html_node"
+			],
+			[
+				"pro",
+				"program"
+			],
+			[
+				"c",
+				"character"
+			],
+			[
+				"them",
+				"theme"
+			],
+			[
+				"fac",
+				"facet"
+			],
+			[
+				"va",
+				"variable"
+			],
+			[
+				"gey",
+				"grey92"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"gre",
+				"grey30"
+			],
+			[
+				"grey",
+				"grey50"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"gr",
+				"grey92"
+			],
+			[
+				"ge",
+				"geom_hline"
+			],
+			[
+				"geo",
+				"geom_point"
+			],
+			[
+				"coo",
+				"coord_flip"
+			],
+			[
+				"face",
+				"facet_grid"
+			],
+			[
+				"geom",
+				"geom_smooth"
+			],
+			[
+				"time",
+				"times"
+			],
+			[
+				"sus",
+				"subset"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"tot",
+				"total_t"
+			],
+			[
+				"emp",
+				"employee"
+			],
+			[
+				"obje",
+				"object"
+			],
+			[
+				"reverse_",
+				"reverse_int"
+			],
+			[
+				"ma",
+				"max"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"ce",
+				"check"
+			],
+			[
+				"Bio",
+				"Biology"
+			],
+			[
+				"Ana",
+				"AnaText"
+			],
+			[
+				"Le",
+				"Learning"
+			],
+			[
+				"M",
+				"Modeling"
+			],
+			[
+				"le",
+				"letters"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"fo",
+				"foods"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"per",
+				"perms"
+			],
+			[
+				"ima",
+				"image_url"
+			],
+			[
+				"read",
+				"readline"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"att",
+				"attrs"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"tr",
+				"transaction"
+			],
+			[
+				"or",
+				"orgAcc"
+			],
+			[
+				"wo",
+				"worksheet"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"st",
+				"strings"
+			],
+			[
+				"ac",
+				"acc"
+			],
+			[
+				"acc",
+				"accnum"
+			],
+			[
+				"number",
+				"numbers"
+			],
+			[
+				"di",
+				"direct_mapping"
+			],
+			[
+				"com",
+				"comp"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"l",
+				"lower"
+			],
+			[
+				"ch",
+				"checkin"
+			],
+			[
+				"org",
+				"org"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"am",
+				"amt"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"remo",
+				"removal"
+			],
+			[
+				"che",
+				"check_acc"
+			],
+			[
+				"task",
+				"taskid"
+			],
+			[
+				"tas",
+				"tasks"
+			],
+			[
+				"ta",
+				"taskid"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"tri",
+				"trigonaminima"
+			],
+			[
+				"dis",
+				"dist"
+			],
+			[
+				"result",
+				"result3"
+			],
+			[
+				"arr",
+				"arr"
+			],
+			[
+				"pos",
+				"pos"
+			],
+			[
+				"po",
+				"pos"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"n",
+				"nPerms"
+			],
+			[
+				"step",
+				"stepSize"
+			],
+			[
+				"ste",
+				"stepSize"
+			],
+			[
+				"lim",
+				"limEnter"
+			],
+			[
+				"tra",
+				"tragectory"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"fa",
+				"falPosition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"set syn ",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn R",
+				"Set Syntax: R"
+			],
+			[
+				"set syn p",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set j",
+				"Set Syntax: JSON"
+			],
+			[
+				"set syn la",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set ma",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"",
+				"Auto indent"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"set ",
+				"Set Syntax: Python"
+			],
+			[
+				"in",
+				"Indent XML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"set syn x",
+				"Set Syntax: XML"
+			],
+			[
+				"set",
+				"Set Syntax: Python"
+			],
+			[
+				"set p",
+				"Set Syntax: Python"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"se syn c",
+				"Set Syntax: C"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"se s ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set sy c",
+				"Set Syntax: C"
+			],
+			[
+				"set pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"se sy bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"se tsy p",
+				"Set Syntax: Python"
+			],
+			[
+				"se sy p",
+				"Set Syntax: Python"
+			],
+			[
+				"set sync++",
+				"Set Syntax: C++"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/248GB/git/Ideabin/run.py",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/e_size = base_size) +",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/, +",
+		"/media/248GB/git/TrigonaMinima/minR/Scraping (RVEST)/challenge.R",
+		"/media/248GB/git/Challenge/challenge.R",
+		"/media/248GB/git/Challenge/start.R",
+		"/media/248GB/git/TrigonaMinima/Courses/Finding Hidden Messages in DNA (Bioinformatics I)/Data/Vibrio_cholerae.txt",
+		"/media/248GB/git/TrigonaMinima/Courses/Finding Hidden Messages in DNA (Bioinformatics I)/quiz1.py",
+		"/home/tminima/.cache/google-chrome/Default/Media Cache/index",
+		"/home/tminima/.cache/google-chrome/Default/Media Cache/f_0002b4",
+		"/home/tminima/.cache/google-chrome/Default/Media Cache/data_2",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/loess.R",
+		"/media/248GB/git/TrigonaMinima/mackup (17th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (17th copy)/mackup/applications/musicbrainz-picard.cfg",
+		"/media/248GB/git/TrigonaMinima/mackup (17th copy)/README.md",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/scatter.R",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/density.R",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/Sleep/load.R",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/sleep.R",
+		"/media/248GB/git/r.txt",
+		"/home/tminima/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/tminima/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/tminima/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/media/248GB/git.txt",
+		"/media/248GB/git/TrigonaMinima/mackup (16th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (15th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (14th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (13th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (12th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (11th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (10th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (8th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (7th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (6th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (5th copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (3rd copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (another copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup (copy)/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/mackup/CONTRIBUTING.md",
+		"/media/248GB/git/TrigonaMinima/mackup/CHANGELOG.md",
+		"/media/248GB/git/TrigonaMinima/Gamify-Viz/plots.R",
+		"/media/248GB/git/TrigonaMinima/BeeTeX/Assignments Template/README.md",
+		"/media/248GB/git/Oopsy/Prog/q1.cpp",
+		"/media/248GB/psiphon-psiphon-circumvention-system-997b54b6f310/pyclient/psi_client.dat",
+		"/media/108GB/skals.txt",
+		"/media/248GB/psiphon-psiphon-circumvention-system-997b54b6f310/README.md",
+		"/media/248GB/psiphon-psiphon-circumvention-system-997b54b6f310/INSTALL",
+		"/media/248GB/psi_client.dat",
+		"/media/248GB/Data(big)/Disk Data/secure_delete.txt",
+		"/media/248GB/Data(big)/Disk Data/udisks_dump.txt",
+		"/media/248GB/git/Oopsy/q12.cpp",
+		"/media/248GB/swine flu.txt",
+		"/media/248GB/git/Oopsy/q6.cpp",
+		"/media/248GB/git/Oopsy/q11.cpp",
+		"/media/248GB/git/Oopsy/q10.cpp",
+		"/media/248GB/git/Oopsy/q9.cpp",
+		"/media/248GB/git/Oopsy/q8.cpp",
+		"/media/248GB/git/Oopsy/q7.cpp",
+		"/media/248GB/git/Oopsy/Prog/q5.cpp",
+		"/media/248GB/git/Oopsy/q5.cpp",
+		"/media/248GB/git/Oopsy/Prog/q4.cpp",
+		"/media/248GB/git/Oopsy/q4.cpp",
+		"/media/248GB/git/Oopsy/Prog/q2.cpp",
+		"/media/248GB/git/Oopsy/q3.cpp",
+		"/media/248GB/git/Oopsy/q2.cpp",
+		"/media/248GB/git/Oopsy/q1.cpp",
+		"/home/tminima/.cache/.fr-22zLkD/readme.txt",
+		"/home/tminima/.gitconfig",
+		"/media/248GB/Big Bang Timeline/project-timeline-infographic-template/read me-VOS.txt",
+		"/media/248GB/git/WRDS Package/DESCRIPTION",
+		"/media/248GB/git/TrigonaMinima/Electricity/Readme.md",
+		"/media/248GB/Desktop/current/curlrequests.txt",
+		"/media/248GB/Desktop/current/haha.txt",
+		"/media/248GB/Desktop/current/rosalind_fibo.txt",
+		"/media/248GB/Desktop/current/internships.md",
+		"/media/248GB/Desktop/current/bio-big-data.txt",
+		"/media/248GB/git/apertium/demo.xml",
+		"/media/248GB/git/apertium/source/apertium-eng-hin/apertium-eng-hin.eng.dix",
+		"/media/248GB/git/apertium/source/apertium-eng-hin/apertium-eng-hin.eng-hin.dix",
+		"/media/248GB/git/apertium/dfa.py",
+		"/media/248GB/git/apertium/source/hin.expanded",
+		"/media/248GB/git/apertium/dict.dix",
+		"/media/248GB/git/apertium/source/apertium-eng-hin/pending-tests.sh",
+		"/media/248GB/git/apertium/source/apertium-eng-hin/texts/README",
+		"/media/248GB/Shivamrana_playlist_Productivity_Mix.xspf",
+		"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de_/git/TrigonaMinima/LinuxTweaks/Deepin 2014/making deepin better.sh",
+		"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de_/Desktop/current/rosalind_fibo.txt",
+		"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de_/git/TrigonaMinima/Anatext/GUI/uicccc.py",
+		"/home/tminima/bin/srm.sh",
+		"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/Data(big)/Disk Data/secure_delete.txt",
+		"/usr/share/contractor/terminal.contract",
+		"/usr/share/contractor/srm.contract",
+		"/media/TrigonaMinima/250GB/downloaded/JoshStonexxx.Mia.Khalifa.hd.720.2014/RARBG.com.txt",
+		"/media/TrigonaMinima/250GB/Personal Crypt/readme.md",
+		"/media/TrigonaMinima/250GB/Personal Crypt/cipher_text.txt",
+		"/media/TrigonaMinima/250GB/Personal Crypt/real_deal.tar.gz",
+		"/home/TrigonaMinima/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/TrigonaMinima/.cache/.fr-Rd4EzZ/read.txt",
+		"/media/TrigonaMinima/250GB/Personal Crypt/a.tar.gz",
+		"/media/TrigonaMinima/250GB/Personal Crypt/read.txt",
+		"/media/TrigonaMinima/250GB/Personal Crypt/test.txt",
+		"/media/TrigonaMinima/250GB/Personal Crypt/text.txt",
+		"/home/TrigonaMinima/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/TrigonaMinima/250GB/Personal Crypt/OTP.py",
+		"/home/TrigonaMinima/Desktop/FHC/accounting.py",
+		"/home/TrigonaMinima/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/TrigonaMinima/250GB/Personal Crypt/this_is_the_deal.zip",
+		"/home/TrigonaMinima/.cache/.fr-3Iqdf9/read.txt",
+		"/media/TrigonaMinima/250GB/Desktop/current/Clementine/3rdparty/libprojectm/presets/Phat+fiShbRaiN+Eo.S_Mandala_Chasers_remix.milk",
+		"/media/TrigonaMinima/250GB/Desktop/current/Clementine/3rdparty/libprojectm/presets/Illusion - Heavenly Eye.milk",
+		"/media/TrigonaMinima/250GB/Desktop/current/zeal/zeal/quazip/crypt.h",
+		"/media/TrigonaMinima/250GB/Desktop/current/Clementine/src/translations/cy.po",
+		"/media/TrigonaMinima/250GB/Desktop/current/copy.sh",
+		"/home/TrigonaMinima/Desktop/FHC/facebook.py",
+		"/home/TrigonaMinima/Desktop/FHC/output.txt",
+		"/home/TrigonaMinima/Desktop/FHC/input.txt",
+		"/home/TrigonaMinima/Desktop/FHC/food.py",
+		"/media/TrigonaMinima/110GB/SHIVAM/songs/eng/Dream Theater - Discography/Dream Theater - Original Album Series (2011) [FLAC] {ATCO, Rhino 8122797630}/combined.log",
+		"/media/TrigonaMinima/250GB/sdask.tar.gz",
+		"/media/TrigonaMinima/250GB/alpha.tar.gz",
+		"/media/TrigonaMinima/250GB/pythonperm.py",
+		"/media/TrigonaMinima/250GB/wxHexEditor/COMPILE",
+		"/media/TrigonaMinima/250GB/git/TrigonaMinima/LinuxTweaks/Deepin 2014/making deepin better.sh",
+		"/media/TrigonaMinima/250GB/git/TrigonaMinima/TrigonaShell/wc.sh",
+		"/home/TrigonaMinima/Desktop/a.sh",
+		"/home/TrigonaMinima/.local/share/nautilus/scripts/shred.sh",
+		"/media/TrigonaMinima/250GB/git/TrigonaMinima/TrigonaShell/CD Lookup/cd.sh",
+		"/home/TrigonaMinima/f1.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"opts",
+			"preReqCoursework",
+			"programName",
+			"schoolLocation",
+			"schoollocation",
+			"schoolLocation",
+			"schoolName",
+			"ele",
+			"ifelse",
+			"opts",
+			"# Monthly Trend\ng <- ggplot(times, aes(x = date, y = total_t)) +\n  geom_line() +\n  geom_smooth(method = lm, se = F, colour = \"green\") +\n  geom_smooth(aes(group = factor(my), colour = times$my), method = lm, se = F)\nprint(g)\n",
+			"theme_",
+			"Date",
+			"times$date",
+			"theme_",
+			",",
+			"over ",
+			"cory",
+			"<<",
+			">>",
+			"mark3",
+			">>",
+			"<<",
+			"&",
+			">>",
+			"<<",
+			"obj2",
+			"obj1",
+			"read",
+			"for *",
+			">>",
+			"<<",
+			"col",
+			"row",
+			"read",
+			"obj2",
+			"obj1",
+			"modules",
+			"salary",
+			">>",
+			"<<",
+			"int",
+			"count",
+			"c1",
+			"counter",
+			"<<",
+			"n",
+			",",
+			"float",
+			"int",
+			"i,j",
+			"void",
+			" ",
+			"1",
+			"\\[\\]",
+			" +c",
+			"beers",
+			"beer",
+			"case",
+			"hex",
+			"enco",
+			", ",
+			" ",
+			"1F",
+			"a",
+			"price",
+			"desc",
+			"\\\"') ",
+			" '):]",
+			"dange",
+			" \"",
+			",\"",
+			"\"\"",
+			"strings",
+			"work",
+			"comp",
+			"10429",
+			"broad",
+			"''\n",
+			"private",
+			"development",
+			"AGRO",
+			"amount",
+			"6917",
+			"10480",
+			"wb",
+			"CONFIG_LOCALVERSION_AUTO",
+			"file",
+			"fi",
+			"---",
+			"scribble",
+			"NeilHarbisson_2012G",
+			"?",
+			"LouieSchwartzberg_2014",
+			"/?",
+			"489b859150fc58263f17110eeb44ed5fba4a3b22",
+			"/",
+			" ",
+			"TobyShapshak_2013G",
+			"AllanAdams_2014",
+			"TobyShapshak_2013G",
+			"http",
+			"\"",
+			"\" \"",
+			"# \"",
+			"\"",
+			"\" \"",
+			"\n\"",
+			"\" \"",
+			"#\"",
+			"# \"",
+			"/",
+			"result2",
+			"result",
+			"count",
+			"min",
+			"nSize",
+			"yourusername",
+			"EdwardSnowden_2014",
+			"ScriptsGr",
+			"\" \"",
+			"machine\" \"Christopher",
+			"\" \"",
+			",",
+			"coef"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"date",
+			"",
+			" << ",
+			" >> ",
+			" << ",
+			" >> ",
+			" << ",
+			"get",
+			"for",
+			" >> ",
+			" << ",
+			"j",
+			"i",
+			"employees",
+			"budget",
+			"int",
+			"\\[ \\]",
+			" c",
+			"     \"",
+			",   \"",
+			"\",\"",
+			"",
+			"result1",
+			"result",
+			"len",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "play.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fi",
+				"~/Desktop/current/xlrd-0.9.3/filesNew.py"
+			],
+			[
+				"",
+				"~/Desktop/current/xlrd-0.9.3/getData.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/media/248GB/git/TrigonaMinima/Blog/myblog.sublime-project"
+			],
+			[
+				"ana",
+				"/media/TrigonaMinima/250GB/git/TrigonaMinima/Anatext/anatext.sublime-project"
+			],
+			[
+				"my",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Blog/myblog.sublime-project"
+			],
+			[
+				"myb",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Blog/myblog.sublime-project"
+			],
+			[
+				"mybl",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Blog/myblog.sublime-project"
+			],
+			[
+				"aba",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Anatext/anatext.sublime-project"
+			],
+			[
+				"eudy",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Eudyptula-Challenge/Eudyptula-Challenge.sublime-project"
+			],
+			[
+				"ANA",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/git/TrigonaMinima/Anatext/anatext.sublime-project"
+			],
+			[
+				"te",
+				"/media/63a6a370-b37f-4aca-94d1-42eb9140f6de/Ted/ted.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 180.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
