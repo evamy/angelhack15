@@ -95,7 +95,7 @@ def meta_data(pathname):
     try:
         artists = audio.get('artist')[0]
     except:
-        artists = []
+        artists = ""
     try:
         length = audio.info.length
     except:
@@ -132,9 +132,9 @@ def upload_file():
             name, album, artists, length = meta_data(path)
 
             entity = [hash_val, name, album, artists, filename, length]
-
             g.db.execute("insert into entries (mid, title, album, artist, \
-                         filename, length) values (?, ?, ?, ?, ?, ?)", entity)
+                         filename, length) values (?, ?, ?, ?, ?, ?)",
+                         entity)
             g.db.commit()
             flash('New entry was successfully posted')
             return redirect(url_for("queue"))
