@@ -61,7 +61,8 @@ def teardown_request(exception):
 def queue():
     cur = g.db.execute('select * from entries order by votes desc')
     rows = cur.fetchall()
-    is_serv = request.remote_addr == '127.0.0.1'
+    is_serv = request.remote_addr
+    print request.remote_addr
     return render_template('index.html', songs=rows, iss=is_serv)
 
 
@@ -156,8 +157,8 @@ def upload_file():
             name, album, artists, length = meta_data(path)
 
             entity = [hash_val, name, album, artists, filename, length]
-            g.db.execute("insert into entries (mid, title, album, artist, \
-                         filename, length) values (?, ?, ?, ?, ?, ?)",
+            g.db.execute("""insert into entries (mid, title, album, artist, \
+                         filename, length) values (?, ?, ?, ?, ?, ?)""",
                          entity)
             g.db.commit()
             flash('New entry was successfully posted')
@@ -167,8 +168,8 @@ def upload_file():
 
 @app.route("/change_song")
 def change_song():
-    g.db.execute("delete from entries where id in (select id\
-                 from entries order by votes desc limit 1)")
+    g.db.execute("""delete from entries where id in (select id\
+                 from entries order by votes desc limit 1)""")
     g.db.commit()
     return redirect(url_for("queue"))
 
