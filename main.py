@@ -25,6 +25,9 @@ app.config.from_object(__name__)
 
 music_dir = ""
 
+# Extra command line arguments for init
+import optparse
+
 
 def connect_db():
     return sqlite3.connect(app.config['DATABASE'])
@@ -35,6 +38,58 @@ def init_db():
         with app.open_resource('schema.sql', mode='r') as f:
             db.cursor().executescript(f.read())
         db.commit()
+
+
+def flaskrun(app, default_host="127.0.0.1",
+             default_port="5000", argv=sys.argv):
+    """
+    Takes a flask.Flask instance and runs it. Parses 
+    command-line flags to configure the app.
+    """
+
+    # Set up the command-line options
+    parser = optparse.OptionParser()
+    parser.add_option("-H", "--host",
+                      help="Hostname of the Flask app " +
+                           "[default %s]" % default_host,
+                      default=default_host)
+    parser.add_option("-P", "--port",
+                      help="Port for the Flask app " +
+                           "[default %s]" % default_port,
+                      default=default_port)
+    parser.add_option("-i", "--init",
+                      help="Initialise a new database while starting the app",
+                      dest="init_db", default=1)
+
+    # Two options useful for debugging purposes, but
+    # a bit dangerous so not exposed in the help message.
+    parser.add_option("-d", "--debug",
+                      action="store_true", dest="debug",
+                      help=optparse.SUPPRESS_HELP)
+    parser.add_option("-p", "--profile",
+                      action="store_true", dest="profile",
+                      help=optparse.SUPPRESS_HELP)
+
+    options, _ = parser.parse_args(argv)
+
+    # If the user selects the profiling option, then we need
+    # to do a little extra setup
+    if options.init_db:
+        init_db()
+
+    if options.profile:
+        from werkzeug.contrib.profiler import ProfilerMiddleware
+
+        app.config['PROFILE'] = True
+        app.wsgi_app = ProfilerMiddleware(app.wsgi_app,
+                                          restrictions=[30])
+        options.debug = True
+
+    app.run(
+        debug=options.debug,
+        host=options.host,
+        port=int(options.port)
+    )
 
 
 ALLOWED_EXTN = set(["mp3"])
@@ -175,8 +230,5 @@ def change_song():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        init_db()
-    else:
-        app.run(host='0.0.0.0', debug=True)
+    flaskrun(app=app)
     # app.run(debug=True)
